@@ -11,7 +11,16 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
   "devDependencies": {
+    "cz-git": "^1.7.1",
     "vitepress": "^1.0.0-rc.10"
+  },
+  "dependencies": {
+    "commitizen": "^4.3.0"
   }
 }
