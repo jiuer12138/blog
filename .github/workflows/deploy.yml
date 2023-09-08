@@ -14,4 +14,4 @@ jobs:
           TARGET_REPO: jiuer12138.github.io/blog
           TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: blog/.vuepress/dist/
+          BUILD_DIR: .vuepress/dist/
