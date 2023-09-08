@@ -21,6 +21,12 @@
     "vitepress": "^1.0.0-rc.10"
   },
   "dependencies": {
-    "commitizen": "^4.3.0"
-  }
+    "commitizen": "^4.3.0",
+    "minisearch": "^6.1.0"
+  },
+  "keywords": [
+    "blog",
+    "javascript",
+    "vue"
+  ]
 }
