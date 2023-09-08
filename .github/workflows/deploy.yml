@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install # 安装依赖
-      - run: npm run build # 打包
+      - run: npm run docs:build # 打包
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

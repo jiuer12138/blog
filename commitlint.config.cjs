@@ -35,9 +35,9 @@ module.exports = {
         ],
         useEmoji: false,
         emojiAlign: 'center',
-        useAI: false,
-        aiNumber: 1,
-        themeColorCode: '',
+        // useAI: false,
+        // aiNumber: 1,
+        // themeColorCode: '',
         // scopes: [],
         // allowCustomScopes: true,
         // allowEmptyScopes: true,
@@ -47,8 +47,8 @@ module.exports = {
         // upperCaseSubject: false,
         // markBreakingChangeMode: false,
         // allowBreakingChanges: ['feat', 'fix'],
-        breaklineNumber: 100,
-        breaklineChar: '|',
+        // breaklineNumber: 100,
+        // breaklineChar: '|',
         // skipQuestions: [],
         // issuePrefixes: [
         //     // 如果使用 gitee 作为开发管理
