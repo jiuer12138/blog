@@ -63,6 +63,7 @@ function nav(): DefaultTheme.NavItem[] {
         }
     ]
 }
+
 /**
  * 前端端侧边栏
  */
@@ -71,6 +72,7 @@ function sidebarFontEnd(): DefaultTheme.SidebarItem[] {
         ...getOtherPageLink('前端')
     ]
 }
+
 /**
  * 后端侧边栏
  */
@@ -89,7 +91,7 @@ function sidebarInterview(): DefaultTheme.SidebarItem[] {
             text: '前端',
             collapsed: false,
             items: [
-                {text: 'v-for和v-if相关问题', link: 'v-for-v-if'},
+                {text: '基础面试题', link: 'basics'},
             ]
         },
         {
@@ -115,7 +117,7 @@ function sidebarInterview(): DefaultTheme.SidebarItem[] {
  * @param arr
  * @param text
  */
-function getOtherPageLink(text): DefaultTheme.SidebarItem[] {
+function getOtherPageLink(text: string): DefaultTheme.SidebarItem[] {
     const arr = nav()
     return recursive(arr, text)
 }
@@ -125,22 +127,22 @@ function getOtherPageLink(text): DefaultTheme.SidebarItem[] {
  * @param arr
  * @param text
  */
-function recursive(arr, text = '') {
+function recursive(arr: DefaultTheme.SidebarItem[], text = ''): DefaultTheme.SidebarItem[] {
     const pages = []
     const others = arr.filter(item => item.text !== text)
     for (let i = 0; i < others.length; i++) {
         let keys = Object.keys(others[i])
         if (keys.includes('link')) {
-            let urls = others[i].link.split('/')
+            let urls = others[i].link!.split('/')
             let lastStr = urls[urls.length - 1]
             pages.push({
                 text: others[i].text,
-                base: others[i].link.replace(lastStr, ''),
+                base: others[i].link!.replace(lastStr, ''),
                 link: lastStr
             })
         }
         if (keys.includes('items')) {
-            pages.push(...recursive(others[i].items))
+            pages.push(...recursive(others[i].items as DefaultTheme.SidebarItem[]))
         }
     }
     return pages
