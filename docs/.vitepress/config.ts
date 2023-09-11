@@ -19,6 +19,7 @@ export default defineConfig({
         socialLinks: [
             {icon: 'github', link: 'https://github.com/jiuer12138'}
         ],
+        docFooter: { prev: '上一篇', next: '下一篇' },
         search: {
             provider: 'algolia',
             options: {
@@ -60,6 +61,11 @@ function nav(): DefaultTheme.NavItem[] {
             text: '面试题',
             link: '/interview/index',
             activeMatch: '/interview/'
+        },
+        {
+            text: '工具集',
+            link: '/toolsWebsite/index',
+            activeMatch: '/toolsWebsite/',
         }
     ]
 }
