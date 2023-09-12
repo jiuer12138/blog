@@ -153,11 +153,44 @@ const study = [
         description: '菜鸟工具大全'
     },
 ]
+const tools = [
+    {
+        src: 'https://www.algolia.com/algoliaweb-static-favicons/dark-mode/favicon-32x32.png',
+        url: 'https://www.algolia.com/',
+        title: 'algolia',
+        description: '搜索工具'
+    },
+    {
+        src: 'https://www.lodashjs.com/img/lodash.png',
+        url: 'https://www.lodashjs.com/',
+        title: 'Lodash',
+        description: 'Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库'
+    },
+    {
+        src: 'https://static-production.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png',
+        url: 'https://www.npmjs.com/',
+        title: 'npm',
+        description: 'npm是Node.js预设的、用JavaScript编写的软件管理系統'
+    },
+    {
+        src: 'https://gitee.com/favicon.ico',
+        url: 'https://gitee.com/',
+        title: 'Gitee',
+        description: '代码管理'
+    },
+    {
+        src: 'https://github.com/fluidicon.png',
+        url: 'https://github.com/',
+        title: 'GitHub',
+        description: '代码管理'
+    },
+]
 
 export default {
     fontEndUI,
     fontEndFramework,
     backEndFramework,
-    study
+    study,
+    tools
 }
 

@@ -64,6 +64,7 @@ const noLogo = computed(() => {
       width: 40px;
       height: 40px;
       margin-right: 5px;
+      object-fit: contain;
     }
 
     .avatarClass {

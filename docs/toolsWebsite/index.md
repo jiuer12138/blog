@@ -17,3 +17,6 @@ import baseData from './baseData';
 
 ## 论坛以及教程
 <tools :list="baseData.study"/>
+
+## 工具库
+<tools :list="baseData.tools"/>
