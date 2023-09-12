@@ -124,3 +124,5 @@ const a = Symbol()
 ```js
 Object.getOwnPropertyNames(target).concat(Object.getOwnPropertySymbols(target))
 ```
+## Promise
+[https://zh.javascript.info/promise-basics](https://zh.javascript.info/promise-basics)
