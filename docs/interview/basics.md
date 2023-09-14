@@ -126,3 +126,20 @@ Object.getOwnPropertyNames(target).concat(Object.getOwnPropertySymbols(target))
 ```
 ## Promise
 [https://zh.javascript.info/promise-basics](https://zh.javascript.info/promise-basics)
+
+## new的过程
+[参考链接](https://juejin.cn/post/7153593226526457887)
+- new运算符创建一个用户定义的对象类型的实例或具有构造函数的内置对象的实例。
+- new关键字会进行如下的操作：
+  - 步骤1：创建一个空的简单JavaScript对象，即 { } ;
+  - 步骤2：链接该对象到另一个对象（即设置该对象的原型对象）；
+  - 步骤3：将步骤1新创建的对象作为this的上下文；
+  - 步骤4：如果该函数没有返回对象，则返回this。
+
+
+## call、apply、bind 的区别
+[参考链接](https://juejin.cn/post/7153593226526457887)
+  1) call 和 apply 的功能相同，区别在于传参的方式不一样:
+     - fn.call(obj, arg1, arg2, ...)  调用一个函数, 具有一个指定的 this 值和分别地提供的参数(参数的列表)。
+     - fn.apply(obj, [argsArray])  调用一个函数，具有一个指定的 this 值，以及作为一个数组（或类数组对象）提供的参数。
+  2) bind 和 call/apply 有一个很重要的区别，一个函数被 call/apply 的时候，会直接调用，但是 bind 会创建一个新函数。当这个新函数被调用时，bind( )  的第一个参数将作为它运行时的 this，之后的一序列参数将会在传递的实参前传入作为它的参数。
