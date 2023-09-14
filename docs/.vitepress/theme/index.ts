@@ -1,9 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
-import HomePage from './homePage.vue'
+import customLayout from './CustomLayout.vue'
 
 export default {
     extends: DefaultTheme,
-    enhanceApp({app}:any) {
-        app.component('homePage', HomePage)
+    enhanceApp({app}: any) {
+        app.component('customLayout', customLayout)
     }
 }

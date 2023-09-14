@@ -1,5 +1,3 @@
-[//]: # (---)
-
-[//]: # (layout: homePage)
-
-[//]: # (---)
+---
+layout: customLayout
+---
