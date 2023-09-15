@@ -4,6 +4,9 @@ export default defineConfig({
     title: '一个大不liu',
     description: '个人博客',
     base: '/blog/',
+    markdown: {
+        lineNumbers: true
+    },
     head: [
         ['link', {rel: 'icon', href: '/blog/logo.png'}],
     ],

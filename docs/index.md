@@ -1,7 +1,4 @@
-<script setup>
- import CustomLayout from "./components/CustomLayout.vue";
-  
+---
+layout: home
+---
 
-</script>
-
-  <customLayout />
