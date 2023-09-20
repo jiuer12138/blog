@@ -2,8 +2,11 @@
 layout: home
 ---
 
-<script setup>
- import Home from ".vitepress/components/Home.vue";
-</script>
+[//]: # (<script setup>)
 
-<Home/>
+[//]: # ( import Home from ".vitepress/components/Home.vue";)
+
+[//]: # (</script>)
+
+[//]: # ()
+[//]: # (<Home/>)
