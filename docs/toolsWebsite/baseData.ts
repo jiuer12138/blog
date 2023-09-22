@@ -152,6 +152,12 @@ const study = [
         title: '菜鸟工具',
         description: '菜鸟工具大全'
     },
+    {
+        src: 'https://developer.mozilla.org/favicon-48x48.cbbd161b.png',
+        url: 'https://developer.mozilla.org/zh-CN/',
+        title: 'MDN',
+        description: '基础'
+    },
 ]
 const tools = [
     {
