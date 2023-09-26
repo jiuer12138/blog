@@ -113,6 +113,18 @@ const backEndFramework = [
         title: 'MVN REPOSITORY',
         description: 'MVN依赖库'
     },
+    {
+        src: 'https://pypi.org/static/images/logo-small.2a411bc6.svg',
+        url: 'https://pypi.org/',
+        title: 'pypi',
+        description: 'Python第三方库'
+    },
+    {
+        src: 'https://www.anaconda.com/wp-content/uploads/2022/12/cropped-site_logo-1-270x270.png',
+        url: 'https://www.anaconda.com/',
+        title: 'Anaconda',
+        description: '基于Python的数据处理和科学计算平台'
+    },
 ]
 
 const study = [
