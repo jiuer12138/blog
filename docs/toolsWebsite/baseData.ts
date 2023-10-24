@@ -87,6 +87,12 @@ const fontEndFramework = [
         title: 'VitePress',
         description: 'vue3 vite 个人博客框架'
     },
+    {
+        src: 'https://gw.alipayobjects.com/zos/bmw-prod/598d14af…f1c-497d-b579-5ac42cd4dd1f/k7bjua9c_w132_h130.png',
+        url: 'https://umijs.org/',
+        title: 'UmiJS',
+        description: '企业级前端开发框架'
+    },
 ]
 const backEndFramework = [
     {
