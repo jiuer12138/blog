@@ -57,6 +57,10 @@ function nav(): DefaultTheme.NavItem[] {
                 {
                     text: 'Java',
                     link: '/back-end/java'
+                },
+                {
+                    text: 'Nginx',
+                    link: '/back-end/nginx'
                 }
             ]
         },
